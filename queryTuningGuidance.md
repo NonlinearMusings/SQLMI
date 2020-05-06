@@ -1,3 +1,5 @@
+# Query Tuning with Managed Instance
+
 Ideally, before deploying to MI a [performance
 baseline](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-migrate#create-performance-baseline)
 is created, in part to establish the appropriate [Service
