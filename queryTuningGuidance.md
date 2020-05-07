@@ -16,7 +16,7 @@ selected queries. These values would enable you to compare performance of
 workload running on Managed Instance to the original values on your source SQL
 Server.”*
 
-The following [Key causes of performance differences between SQL managed
+The following [key causes of performance differences between SQL managed
 instance and SQL
 Server](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fazure.microsoft.com%2Fen-us%2Fblog%2Fkey-causes-of-performance-differences-between-sql-managed-instance-and-sql-server%2F&data=02%7C01%7CRick.Davis%40microsoft.com%7Cc7376f5b1fa2493b1db508d7e073a9c8%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637224659682405934&sdata=sOmy3GH6u25X6xQPXV82FXIuA8pAh6keUqGpyOVKE8Y%3D&reserved=0)
 should also be taken into consideration as a simple 1:1 correlation with a VM’s
@@ -52,7 +52,7 @@ need to see what the actual waits are and there are multiple resources for
 determining them. The DMV
 [sys.dm_db_wait_stats](https://docs.microsoft.com/en-us/sql/relational-databases/system-dynamic-management-views/sys-dm-db-wait-stats-azure-sql-database?view=azuresqldb-current)
 “returns information about all the waits encountered by threads that executed
-during operation”, meaning it’s a real time looks the database. Paul Randal’s
+during operation”, meaning it’s a real time look the database. Paul Randal’s
 excellent [SQL Server Wait Statistics (or please tell me where it
 hurts…)](https://www.sqlskills.com/blogs/paul/wait-statistics-or-please-tell-me-where-it-hurts/)
 will return a listing of wait types being experienced by SQL Server, in
