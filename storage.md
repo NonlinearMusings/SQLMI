@@ -1,1 +1,1 @@
-(Slides/Slide1.JPG)
+(/Slides/Slide1.JPG)
